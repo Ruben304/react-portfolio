@@ -38,8 +38,8 @@ const About = () => {
               strArray={['A','b','o','u','t',' ', 'm','e']}
               idx={15}/>
           </h1>
-          <p> I am currently a senior in Boston University studying Computer Engineering. I do enjoy the city of Boston, but nothing beats home food in Houston, TX</p>
-          <p> Outside of class I enjoy thrifting, musc, and musuems &#9787;.
+          <p> I am currently a senior in Boston University studying Computer Engineering. I do enjoy the city of Boston, but nothing beats my hometown Houston, TX</p>
+          <p> Outside of class I enjoy thrifting, music, and musuems &#9787;.
             Also I am president of my university's Society of Hispanic Proffesional Engineers (SHPE) chapter and part of Zen club. 
             Both have made me a better leader and person in their respective ways.</p>
           <p> Some technical skills i've learned are: &#x2022; C++ &#x2022; HTML &#x2022; CSS &#x2022; Vivado/Verilog &#x2022; Matlab.
