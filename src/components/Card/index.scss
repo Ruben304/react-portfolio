@@ -1,0 +1,76 @@
+.card-container {
+  width: calc(33.33% - 20px); /* Adjust the width to fit 3 cards in one row with margin between them */
+  overflow: hidden;
+  box-shadow: 0 0 15px -5px;
+  transition: 0.5s;
+  background-color: beige;
+  border-radius: 6px;
+  margin: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  flex-grow: 1;
+  &:hover{
+    box-shadow: 0px 0px 15px 1px #edbd68; /* Change box shadow color on hover */
+    transform: scale(1.05);
+  }
+}
+
+.image-container img {
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+}
+
+.card-content {
+  margin: 1rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: sans-serif;
+  margin: 0px 0px;
+}
+
+.card-body {
+  margin: 0px 0px;
+  padding: 0;
+  width: 100%;
+  word-wrap:break-word;
+  hyphens: auto;
+  max-height: 6.4em; /* Limit the maximum height of the card body */
+  line-height: 1.6em; /* Set the line height for wrapping */
+  overflow: hidden; /* Hide the overflow content */
+  display: -webkit-box;
+  -webkit-line-clamp: 6; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  font-family: sans-serif;
+
+  button{
+    background-color: #945b85;
+    border: 1px solid #945b85;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin: 4px 14px;
+    a{
+      color: #fcf8ea;
+      text-decoration: none;
+      padding: 10px 18px;
+    }
+
+    &:hover{
+      background-color: #edbd68;
+      border: 1px solid #edbd68;
+      a{
+        color: #602b53;
+      }
+    }
+  }
+
+  p{
+    margin: 2px 0px;
+  }
+}
+
